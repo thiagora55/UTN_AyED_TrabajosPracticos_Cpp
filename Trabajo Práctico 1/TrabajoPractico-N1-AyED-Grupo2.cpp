@@ -149,10 +149,6 @@ void pasajeSegundosACadena(float segundos, char destino[])
     destino[10] = '\0';
 
 
-
-
-
-
 int main() {
     cout << "--- PRUEBAS DEL TRABAJO PRÁCTICO ---" << endl << endl;
 
@@ -218,20 +214,16 @@ int main() {
 
     //Prueba Función 7 - pasajeDiaACadena
     cout << "Prueba Función 7 - pasajeDiaACadena" << endl;
-
     char cadena[50];
     pasajeDiaACadena(20260406, cadena);
     cout << cadena << endl;
-    
     cout << "------------------------------------" << endl;
 
     //Prueba Función 8 - pasajeSegundosACadena
     cout << "Prueba Función 8 - pasajeSegundosACadena" << endl;
-    
     char cadena[11];
     pasajeSegundosACadena(45106.97, cadena);
     cout << cadena << endl;
-    
     cout << "------------------------------------" << endl;
 
     return 0;
